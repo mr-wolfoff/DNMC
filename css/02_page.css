@@ -50,13 +50,18 @@ body {
 }
 
 .promo_inner_block_card {
-    width: 33%;
+    width: 33.33%;
     height: 385px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
+    padding: 30px 40px;
     border: 1px solid #56567B;
+}
+
+.promo_inner_block_card:hover .display_block {
+    background-color: #1F1F3D;
+    display: block;
 }
 
 .promo_inner_block_title {
@@ -84,4 +89,8 @@ body {
     letter-spacing: -0.3376469910144806px;
     color: #fff;
     
+}
+
+.display_block {
+    display: none;
 }
