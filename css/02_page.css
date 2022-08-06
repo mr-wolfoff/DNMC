@@ -1,0 +1,87 @@
+body {
+    background-color: #151525;
+}
+
+/* heade */
+
+
+.header {
+    margin-bottom: 200px;
+}
+
+.header_nav {
+    align-items: center;
+}
+
+
+/* maun */
+.title_block_second_page {
+    max-width: 470px;
+
+}
+
+.second_page_title {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 85px;
+    letter-spacing: 0.2800000011920929px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.title_buttons_block {
+    margin-bottom: 200px;
+}
+
+.sub_title_block_title {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 55px;
+    letter-spacing: 0.18000000715255737px;
+    color: #fff;
+}
+
+.sub_title_block_text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: -0.39392149448394775px;
+    color: #fff;
+}
+
+.promo_inner_block_card {
+    width: 33%;
+    height: 385px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #56567B;
+}
+
+.promo_inner_block_title {
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 85px;
+    letter-spacing: 0.2800000011920929px;
+    color: #fff;
+}
+
+.promo_card_title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 37px;
+    letter-spacing: 0.11999999731779099px;
+}
+
+
+.promo_card_text {
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.3376469910144806px;
+    color: #fff;
+    
+}

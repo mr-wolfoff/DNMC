@@ -1,0 +1,78 @@
+.flex_row {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* containers */
+.container {
+    max-width: 1770px;
+    margin: 0 auto;
+}
+
+.short_container {
+    max-width: 1075px;
+    margin: 0 auto;
+}
+
+/* header */
+.header {
+    padding: 20px 0;
+}
+
+.header_nav {
+    align-items: center;
+
+}
+
+.header_left_row {
+    width: 500px;
+}
+
+.header_right_row {
+    width: 500px;
+}
+
+.header_nav_text {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.09600000083446503px;
+}
+
+.contacts_link_icons {
+    width: 21px;
+}
+
+.instagram_icon {
+    background: url("../images/logos/instagram_logo.svg");
+    background-repeat: no-repeat;
+}
+
+.facebook_icon {
+    background: url("../images/logos/facebook_logo.svg");
+    background-repeat: no-repeat;
+}
+
+.header_phone {
+    background: url("../images/logos/phone_logo.svg");
+    background-repeat: no-repeat;
+    width: 187px;
+}
+
+/* buttons */
+.title_button {
+    padding: 14px;
+    width: 142px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.4501959979534149px;
+    border: 0;
+    border-radius: 10px;
+}
+
+.light_btn {
+    background-color: #3D46A8;
+}

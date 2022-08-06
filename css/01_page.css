@@ -1,0 +1,162 @@
+body {
+    background: url("../images/dnmc_main.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.main_title {
+    color: #fff;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 85px;
+    letter-spacing: 0.2800000011920929px;
+}
+
+/* header */
+.header_nav {
+    /* margin-bottom: 200px; */
+}
+
+
+
+/* main */
+
+.main_title {
+    margin-bottom: 30px;
+}
+
+/* .title_buttons_block {
+    margin-bottom: 200px;
+} */
+
+.partners_block_title {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0.09600000083446503px;
+    color: #fff;
+    margin-bottom: 20px;
+    height: 133px;
+    overflow-x:scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.title_block {
+    /* margin-bottom: 230px; */
+    padding: 200px;
+}
+
+.parters_item {
+    padding: 50px 100px;
+    border: 1px #312E4D solid;
+    /* margin-bottom: ; */
+}
+/* block with images */
+.partners_1 {
+    background: url("../images/logos/1icon.svg");
+    background-repeat: no-repeat;
+    background-size: 22px;
+    background-position: left 50% top 30px;
+}
+.partners_2 {
+    background: url("../images/logos/2icon.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_3 {
+    background: url("../images/logos/3icon.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_4 {
+    background: url("../images/logos/4icon.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_5 {
+    background: url("../images/logos/5icon.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_6 {
+    background: url("../images/logos/6icon.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_7 {
+    background: url("../images/logos/7logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_8 {
+    background: url("../images/logos/8logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_9 {
+    background: url("../images/logos/9logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_10 {
+    background: url("../images/logos/10logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_11 {
+    background: url("../images/logos/11logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_12 {
+    background: url("../images/logos/12logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_13 {
+    background: url("../images/logos/13logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_14 {
+    background: url("../images/logos/14logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_15 {
+    background: url("../images/logos/15logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_16 {
+    background: url("../images/logos/16logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+.partners_17 {
+    background: url("../images/logos/17logo.svg");
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: left 50% top 30px;
+}
+
+/* footer */
+.footer {
+    padding: 20px;
+}
