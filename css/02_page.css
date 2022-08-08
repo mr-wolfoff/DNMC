@@ -100,19 +100,41 @@ body {
 }
 
 @media screen and (max-width:1200px) {
-    .short-container {
+    .short_container {
         max-width: 95%;
     }
 }
 
 @media screen and (max-width:810px) {
+    .short_container {
+        max-width: 500px;
+    }
+
     .promo_inner_block_title {
         font-size: 58px;
+    }
+
+    .scroll {
+        overflow-x: scroll;
+    }
+
+    .promo_inner_block_card {
+        min-width: 300px;
     }
 }
 
 @media screen and (max-width:700px) {
     .promo_inner_block_title {
         font-size: 41px;
+    }
+
+    .short_container {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .sub_title_block_title {
+        font-size: 37px;
     }
 }
