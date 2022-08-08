@@ -1,86 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/03_page.css">
     <title>Document</title>
 </head>
+
 <body>
-    <header class="header">
-        <nav class="header_nav short_container">
+    <!-- <header class="header">
+        <nav class="header_nav short_container flex_row">
             <div class="header_left_row flex_row">
-                <a class="header_nav_text">Dynamica</a>
-                <a class="header_nav_text">Портфолио</a>
-                <a class="header_nav_text">Контакты</a>
+                <a class="header_nav_text color_black">Dynamica</a>
+                <a class="header_nav_text color_black">Портфолио</a>
+                <a class="header_nav_text color_black">Контакты</a>
             </div>
-            <div class="header_right_row">
-                <a href="" class="contacts_link_icons"></a>
-                <a href="" class="contacts_link_icons"></a>
-                <a href="lel:+7 708 280 28 06" class="contacts_link_icons header_phone">+7 708 280 28 06</a>
-                <a href="" class="contacts_link_icons"><img src="images/logos/LogoDNMC.svg" alt="DNMC"></a>
+            <div class="header_right_row flex_row">
+                <a href="" class="contacts_link_icons instagram_icon"></a>
+                <a href="" class="contacts_link_icons facebook_icon"></a>
+                <a href="tel: +7 708 280 28 06" class="contacts_link_icons header_phone">+7 708 280 28 06</a>
+                <a href="" class="contacts_link_icons"><img src="images/logos/dnmc_blcak.svg" class="dnmc_logo"
+                        alt="DNMC"></a>
             </div>
         </nav>
-    </header>
-    <div class="partfolio_nav">
-        <a class="partfolio_nav_link">IT проекты</a>
-        <a class="partfolio_nav_link">Дизайн</a>
-        <a class="partfolio_nav_link">Instagram</a>
-    </div>
-    <div class="blocks_cards">
-        <div class="flex_row">
-            <a href="#" class="block_card_item">
-                <img class="block_card_item_img"></img>
-                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
-                <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
-            </a>
-            <a href="#" class="block_card_item">
-                <img class="block_card_item_img"></img>
-                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
-                <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
-            </a>
-            <a href="#" class="block_card_item">
-                <img class="block_card_item_img"></img>
-                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
-                <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
-            </a>
-        </div>
-        <div class="flex_row">
-            <a href="#" class="block_card_item">
-                <img class="block_card_item_img"></img>
-                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
-                <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
-            </a>
-            <a href="#" class="block_card_item">
-                <img class="block_card_item_img"></img>
-                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
-                <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
-            </a>
-            <a href="#" class="block_card_item">
-                <img class="block_card_item_img"></img>
-                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
-                <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
-            </a>
-        </div>
-        <div class="flex_row">
-            <a href="#" class="block_card_item">
-                <img class="block_card_item_img"></img>
-                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
-                <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
-            </a>
-            <a href="#" class="block_card_item">
-                <img class="block_card_item_img"></img>
-                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
-                <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
-            </a>
-            <a href="#" class="block_card_item">
-                <img class="block_card_item_img"></img>
-                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
-                <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
-            </a>
+    </header> -->
+    <div class="short_container">
+        <div class="nav_item_block">
+            <div class="nav_item_description flex_row">
+                <a href="#tab1" class="nav_item triggers_item">
+                    IT проекты
+                </a>
+                <a href="#tab2" class="nav_item triggers_item">
+                    Дизайн
+                </a>
+                <a href="#tab3" class="nav_item triggers_item">
+                    Instagram
+                </a>
+            </div>
         </div>
     </div>
-    <div class="offer_block">
+
+    <!-- first block -->
+
+    <div id="tab1" class="short_container content_item">
+        <div class="blocks_cards">
+            <div class="block_card_item flex_colum">
+                <a href="04_page.html" class="block_card_item_img"></a>
+                <a href="04_page.html">
+                    <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+                    <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
+                </a>
+            </div>
+            <div class="block_card_item flex_colum">
+                <a href="04_page.html" class="block_card_item_img"></a>
+                <a href="04_page.html">
+                    <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+                    <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
+                </a>
+            </div>
+            <div class="block_card_item flex_colum">
+                <a href="04_page.html" class="block_card_item_img"></a>
+                <a href="04_page.html">
+                    <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+                    <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
+                </a>
+            </div>
+            <div class="block_card_item flex_colum">
+                <a href="04_page.html" class="block_card_item_img"></a>
+                <a href="04_page.html">
+                    <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+                    <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
+                </a>
+            </div>
+            <div class="block_card_item flex_colum">
+                <a href="04_page.html" class="block_card_item_img"></a>
+                <a href="04_page.html">
+                    <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+                    <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
+                </a>
+            </div>
+            <div class="block_card_item flex_colum">
+                <a href="04_page.html" class="block_card_item_img"></a>
+                <a href="04_page.html">
+                    <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+                    <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
+                </a>
+            </div>
+            <div class="block_card_item flex_colum">
+                <a href="04_page.html" class="block_card_item_img"></a>
+                <a href="04_page.html">
+                    <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+                    <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
+                </a>
+            </div>
+            <div class="block_card_item flex_colum">
+                <a href="04_page.html" class="block_card_item_img"></a>
+                <a href="04_page.html">
+                    <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+                    <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
+                </a>
+            </div>
+            <div class="block_card_item flex_colum">
+                <a href="04_page.html" class="block_card_item_img"></a>
+                <a href="04_page.html">
+                    <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+                    <p class="block_card_item_text">Интернет маганзин хозяйственных товаров</p>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- second block -->
+    <div id="tab3" class="blocks_instagram short_container content_item">
+        <div class="instagram_blocks">
+            <div class="flex_colum inst">
+                <div class="instagram_block">
+                    <img src="images/logos/play_img.svg" class="block_card_instagram_item_img "></img>
+                </div>
+                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+            </div>
+            <div class="flex_colum inst">
+                <div class="instagram_block">
+                    <img src="images/logos/play_img.svg" class="block_card_instagram_item_img "></img>
+                </div>
+                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+            </div>
+            <div class="flex_colum inst">
+                <div class="instagram_block">
+                    <img src="images/logos/play_img.svg" class="block_card_instagram_item_img "></img>
+                </div>
+                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+            </div>
+
+            <div class="flex_colum inst">
+                <div class="instagram_block">
+                    <img src="images/logos/play_img.svg" class="block_card_instagram_item_img "></img>
+                </div>
+                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+            </div>
+            <div class="flex_colum inst">
+                <div class="instagram_block">
+                    <img src="images/logos/play_img.svg" class="block_card_instagram_item_img "></img>
+                </div>
+                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+            </div>
+            <div class="flex_colum inst">
+                <div class="instagram_block">
+                    <img src="images/logos/play_img.svg" class="block_card_instagram_item_img "></img>
+                </div>
+                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+            </div>
+
+            <div class="flex_colum inst">
+                <div class="instagram_block">
+                    <img src="images/logos/play_img.svg" class="block_card_instagram_item_img "></img>
+                </div>
+                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+            </div>
+            <div class="flex_colum inst">
+                <div class="instagram_block">
+                    <img src="images/logos/play_img.svg" class="block_card_instagram_item_img "></img>
+                </div>
+                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+            </div>
+            <div class="flex_colum inst">
+                <div class="instagram_block">
+                    <img src="images/logos/play_img.svg" class="block_card_instagram_item_img "></img>
+                </div>
+                <h3 class="block_card_item_title">Хоозяюшка.kz</h3>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- <div class="offer_block">
         <h2 class="offer_block_title">Закажи разработку прямо сейчас</h2>
         <div class="flex_row">
             <input type="text" class="form_name" required placeholder="Ваше имя">
@@ -102,13 +200,32 @@
             ближайшее время!
         </p>
     </div>
-</div>
+    </div> -->
 
 
-<footer class="footer container">
-    <p class="copyright center">© 2016 - 2022 Dynamica agency</p>
-</footer>
+    <footer class="footer container">
+        <p class="copyright center">© 2016 - 2022 Dynamica agency</p>
+    </footer>
 
-    
+
+    <script src='js/jquery-3.6.0.min.js'></script>
+    <script src='js/modalForm.js'></script>
+    <script src='js/gallery.js'></script>
+    <script src="js/jquery.maskedinput.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.triggers_item').click(function (e) {
+                e.preventDefault();
+                $('.triggers_item').removeClass('triggers_item_active');
+                $('.content_item').removeClass('content_item_active');
+                $(this).addClass('triggers_item_active');
+                $($(this).attr('href')).addClass('content_item_active');
+            })
+        })
+    </script>
+
+
 </body>
+
 </html>
