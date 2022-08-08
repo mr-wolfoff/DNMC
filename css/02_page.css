@@ -59,8 +59,12 @@ body {
     border: 1px solid #56567B;
 }
 
-.promo_inner_block_card:hover .display_block {
+.promo_inner_block_card:hover {
     background-color: #1F1F3D;
+
+}
+
+.promo_inner_block_card:hover .display_block {
     display: block;
 }
 
@@ -88,9 +92,27 @@ body {
     line-height: 15px;
     letter-spacing: -0.3376469910144806px;
     color: #fff;
-    
+
 }
 
 .display_block {
     display: none;
+}
+
+@media screen and (max-width:1200px) {
+    .short-container {
+        max-width: 95%;
+    }
+}
+
+@media screen and (max-width:810px) {
+    .promo_inner_block_title {
+        font-size: 58px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .promo_inner_block_title {
+        font-size: 41px;
+    }
 }
