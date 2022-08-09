@@ -260,24 +260,22 @@
         <p class="copyright center black">© 2016 - 2022 Dynamica agency</p>
     </footer>
 
-                <script src='js/jquery-3.6.0.min.js'></script>
-                <script src='js/modalForm.js'></script>
-                <script src='js/gallery.js'></script>
-                <script src="js/jquery.maskedinput.js"></script>
+    <script src='js/jquery-3.6.0.min.js'></script>
+    <script src='js/modalForm.js'></script>
+    <script src='js/gallery.js'></script>
+    <script src="js/jquery.maskedinput.js"></script>
 
-                <script>
-                    $(document).ready(function () {
-                        $('.triggers_item').click(function (e) {
-                            e.preventDefault();
-                            $('.triggers_item').removeClass('triggers_item_active');
-                            $('.content_item').removeClass('content_item_active');
-                            $(this).addClass('triggers_item_active');
-                            $($(this).attr('href')).addClass('content_item_active');
-                        })
-                    })
-                </script>
-
-
+    <script>
+        $(document).ready(function () {
+            $('.triggers_item').click(function (e) {
+                e.preventDefault();
+                $('.triggers_item').removeClass('triggers_item_active');
+                $('.content_item').removeClass('content_item_active');
+                $(this).addClass('triggers_item_active');
+                $($(this).attr('href')).addClass('content_item_active');
+            })
+        })
+    </script>
 </body>
 
 </html>
