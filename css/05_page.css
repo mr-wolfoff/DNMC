@@ -382,21 +382,45 @@ body {
         font-weight: 400;
         line-height: 23px;
         letter-spacing: 0.07999999821186066px;
+        position: relative;
     }
-    .wwp {
+    .wwp, .fb, .inst {
+        position: relative;
+        padding-left: 35px;
+    }
+    .wwp::after {
+        display: block;
+        content:" ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 26px;
+        height: 25px;
         background-image: url("../images/wwp_icon.svg");
         background-repeat: no-repeat;
-        background-position: top 20px left 130px;
+
     }
-    .fb {
+    .fb::after {
+        display: block;
+        content:" ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 26px;
+        height: 25px;
         background-image: url("../images/fb_icon.svg");
         background-repeat: no-repeat;
-        background-position: top 20px left 135px;
     }
-    .inst {
+    .inst::after {
+        display: block;
+        content:" ";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 26px;
+        height: 25px;
         background-image: url("../images/inst_icon.svg");
         background-repeat: no-repeat;
-        background-position: top 20px left 130px;
     }
     .form_block_media {
         width: 90vw;
