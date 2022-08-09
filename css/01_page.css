@@ -44,8 +44,12 @@ body {
     overflow-x: scroll;
     height: 100px;
     display: flex;
-    margin-bottom: 30px;
+    margin-bottom: 30px; 
 }
+.partners_list::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+} 
 .parters_item {
     display: inline-block;
     height: 100px;
