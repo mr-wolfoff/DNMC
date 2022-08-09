@@ -20,20 +20,37 @@ body {
 
 /* header */
 .header {
-    padding: 20px 0;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 355px;
+
 }
 
 .header_nav {
     align-items: center;
+    width: 459px;
 
 }
 
-.header_left_row {
-    width: 400px;
+.logo {
+    display: block;
+    width: 100px;
+    margin-right: 100px;
+}
+
+/*  */
+
+.logo_img {
+    display: block;
+    width: 100px;
+    margin-right: 30px;
 }
 
 .header_right_row {
-    width: 400px;
+    width: 500px;
+    justify-content: space-evenly;
 }
 
 .header_nav_text {
@@ -44,6 +61,7 @@ body {
     letter-spacing: 0.09600000083446503px;
     cursor: pointer;
     transition: 0.3s;
+    display: inline-block;
 }
 .header_nav_text:hover {
     color: antiquewhite;
@@ -56,22 +74,39 @@ body {
     display: inline-block;
     width: 21px;
     height: auto;
+    margin: 0 15px;
 }
 
 .instagram_icon {
     background: url("../images/logos/instagram_logo.svg");
     background-repeat: no-repeat;
+    background-size: 100%;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    padding: 0 2%;
+    background-position: top 50% left;
 }
 
 .facebook_icon {
     background: url("../images/logos/facebook_logo.svg");
     background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 54%;
+    width: 21px;
+    height: 21px;
+    padding: 0 2%;
 }
 
 .header_phone {
     background: url("../images/logos/phone_logo.svg");
     background-repeat: no-repeat;
-    width: 187px;
+    display: block;
+    background-size: 100%;
+    width: 21px;
+    height: 23px;
+    width: 199px;
+    padding: 0 2%;  
 }
 
 /* buttons */
@@ -96,6 +131,7 @@ body {
 .light_btn {
     background-color: #3D46A8;
 }
+
 
 /* footer */
 .footer {
