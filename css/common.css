@@ -40,6 +40,10 @@ body {
     margin-right: 100px;
 }
 
+.media_header {
+    display: none;
+}
+
 /*  */
 
 .logo_img {
@@ -104,7 +108,18 @@ body {
     display: block;
     background-size: 100%;
     width: 21px;
-    height: 23px;
+    height: 27px;
+    width: 199px;
+    padding: 0 2%;  
+}
+
+.header_phone_black {
+    background: url("../images/logos/black_phone.svg");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: 100%;
+    width: 21px;
+    height: 27px;
     width: 199px;
     padding: 0 2%;  
 }
@@ -142,4 +157,8 @@ body {
 }
 .black {
     color: #000;
+}
+
+.color_black {
+    color: black;
 }
