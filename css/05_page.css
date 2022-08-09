@@ -384,6 +384,13 @@ body {
         letter-spacing: 0.07999999821186066px;
         position: relative;
     }
+    .social_link:hover {
+    opacity: 0.8;
+    }
+    .social_link:active {
+    opacity: 0.5;
+    box-shadow: 6px 4px 39px -3px rgba(0, 0, 0, 0.08) inset;
+    }
     .wwp, .fb, .inst {
         position: relative;
         padding-left: 35px;

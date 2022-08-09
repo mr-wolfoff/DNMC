@@ -1,0 +1,120 @@
+.bahandik {
+    width: 90%;
+    margin: 0 auto;
+    background: #151525;
+}
+.dropdown-btn-header {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+    border: 1px solid #018DD2;
+    border-radius: 50%;
+    
+}
+/* header dropdown */
+.menu-btn-header {
+    width: 18px;
+    height: 18px;
+    position: relative;
+    z-index:2;
+    overflow: hidden;
+}
+.menu-btn-header span {
+    width: 15px;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF;
+    transition: all 0.5s;
+}
+.modal_close_btn {
+    display: block;
+    width: 100px;
+    background: url("../images/X-close_icon.svg") no-repeat;
+    background-size: 30px;
+    background-position: 0 -5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.07199999690055847px;
+    text-align: right;
+    color: #fff;
+}
+.header_link_item {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 68px;
+    letter-spacing: 0.14399999380111694px;
+    text-align: left;
+    color: #fff;
+}
+.social_links_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.social_link {
+    display: inline-block;
+    width: inherit;
+    background: #24243B;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: center;
+    padding-block: 20px;
+    margin-bottom: 5px;;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0.07999999821186066px;
+    position: relative;
+}
+.social_link:hover {
+    opacity: 0.8;
+}
+.social_link:active {
+    opacity: 0.5;
+    box-shadow: 6px 4px 39px -3px rgba(0, 0, 0, 0.08) inset;
+}
+.wwp, .fb, .inst {
+    position: relative;
+    padding-left: 35px;
+}
+.wwp::after {
+    display: block;
+    content:" ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 25px;
+    background-image: url("../images/wwp_icon.svg");
+    background-repeat: no-repeat;
+
+}
+.fb::after {
+    display: block;
+    content:" ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 25px;
+    background-image: url("../images/fb_icon.svg");
+    background-repeat: no-repeat;
+}
+.inst::after {
+    display: block;
+    content:" ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 26px;
+    height: 25px;
+    background-image: url("../images/inst_icon.svg");
+    background-repeat: no-repeat;
+}
