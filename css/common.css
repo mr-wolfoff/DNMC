@@ -96,3 +96,14 @@ body {
 .light_btn {
     background-color: #3D46A8;
 }
+
+/* footer */
+.footer {
+    padding-block: 10px 30px;
+}
+.copyright {
+    color: #fff;
+}
+.black {
+    color: #000;
+}

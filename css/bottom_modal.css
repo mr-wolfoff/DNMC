@@ -1,0 +1,113 @@
+
+.modal_form {
+    display: block;
+    background: #1C1C3C;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-block: 20px;
+}
+.modal_title {
+    width: 315px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: -0.8441175222396851px;
+    text-align: center;
+    color: #fff;
+}
+.form {
+    width: 70%;
+    text-align: center;
+}
+
+.user_data_input {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.modal_username {
+    border-radius: 5px;
+    border: none;
+    padding: 13px 16px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    width: 47%;
+}
+.capcha {
+    width: 180px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.capcha_index {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: -0.5627449750900269px;
+    color: #fff;
+    margin-block: 10px;
+}
+.capcha_btn {
+    border: none;
+    background: #1C1C3C;
+    color: gray;
+    align-self: center;
+}
+.capch_input {
+    width: 130px;
+    height: 50px;
+    border: none;
+    border-radius: 6px;
+}
+.capcha_info {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.3376469910144806px;
+    color: #fff;
+    margin-block: 5px;
+}
+.modal_btn {
+    border: none;
+    border-radius: 10px;
+    background: #3D46A8;
+    padding: 15px 30px;
+    color: #fff;
+}
+.modal_block_description {
+    width: 365px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: -0.3376469910144806px;
+    text-align: center;
+    color: #fff;
+    margin-block: 20px;
+}
+.center {
+    text-align: center;
+}
+
+    /* MEDIA */
+@media screen and (max-width: 750px) {
+    .modal_form {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 600px) {
+    .user_data_input {
+        flex-direction: column;
+    }
+    .modal_username {
+        width: 100%;
+    }
+    .flex_row_modal {
+        flex-direction: column;
+    }
+}
+

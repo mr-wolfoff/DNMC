@@ -1,5 +1,8 @@
 body {
     background-color: #151525;
+    background-image: url("../images/bg_img_second.svg");
+    background-repeat: no-repeat;
+    background-position-x: right;
 }
 
 /* heade */
