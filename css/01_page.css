@@ -3,7 +3,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 .main_title {
     color: #fff;
     font-size: 70px;
@@ -11,20 +10,19 @@ body {
     line-height: 85px;
     letter-spacing: 0.2800000011920929px;
 }
+.header_br {
+    display: none;
+}
 
 /* header */
 .header_nav {
     margin-bottom: 150px;
 }
 
-
-
 /* main */
-
 .main_title {
     margin-bottom: 30px;
 }
-
 .partners_block_title {
     font-size: 24px;
     font-weight: 400;
@@ -36,7 +34,6 @@ body {
     white-space: nowrap;
     overflow-y: hidden;
 }
-
 .title_block {
     margin-bottom: 30vh;
 }
@@ -49,13 +46,13 @@ body {
     display: flex;
     margin-bottom: 30px;
 }
-
 .parters_item {
     display: inline-block;
     height: 100px;
     width: 200px;
     border: 1px #312E4D solid;
 }
+
 /* block with images */
 .partners_1 {
     background: url("../images/logos/1icon.svg");
@@ -179,5 +176,115 @@ body {
 
 /* footer */
 .footer {
-    padding: 20px;
+    padding-block: 10px 30px;
 }
+.copyright {
+    color: #fff;
+}
+
+
+/* MEDIA */  
+
+@media  screen and (max-width: 1650px)  {
+    .container {
+        max-width: 90vw;
+    }
+}                                   
+@media  screen and (max-width: 1200px) {
+    body {
+        background-position: top 0 left 0;
+    }
+    .container {
+        max-width: 950px;
+    }
+    .header_nav {
+        width: 100vw;
+    }
+    .header_left_row, .header_right_row{
+        max-width: 35vw;
+    }
+    .header_nav_text {
+        margin-right: 10px;
+    }
+    .logo_img {
+        width: 20vw;
+    }
+
+    
+}
+
+@media  screen and (max-width: 950px) {
+     body {
+        background-position: top 0 right 0;
+    }
+    .container {
+        max-width: 95vw;
+    }
+}
+
+@media  screen and (max-width: 800px) {
+    .main_title {
+        font-size: 50px;
+    }
+    .header_nav {
+        justify-content: space-between;
+    }
+    .header_nav_text {
+        font-size: 18px;
+    }
+    .contacts_link_icons {
+        background-size: auto 20px;
+    }
+    .header_phone {
+        background-size: 150px;
+    }
+   
+}
+
+@media  screen and (max-width: 650px) {
+    .header_left_row, .header_right_row {
+        flex-direction: column;
+    }
+   
+}
+
+
+@media  screen and (max-width: 450px) { 
+    body {
+        background-position:  top 0 right 30%;
+        background-size: auto;
+    }
+    .container {
+        max-width: 90vw;
+    }
+    .header_nav {
+        margin-bottom: 30px;
+    }
+    .logo_img {
+        width: 81px;
+    }
+    .main_title {
+        font-size: 40px;
+    }
+    .header_br {
+        display: block;
+    }
+    .title_block {
+        margin-bottom: 300px; 
+    }
+    .main_title {
+        line-height: inherit;
+        margin-bottom: 45px;
+    }
+    .title_button {
+        padding-inline: 40px;
+    }
+    .media_none_btn {
+        display: none;
+    }
+    .partners_block_title {
+        margin-bottom: 20px;
+    }
+
+}
+

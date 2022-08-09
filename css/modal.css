@@ -1,14 +1,15 @@
-.modal {
+
+.backdrop {
     background: #fff;
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0.3;
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    z-index: 500;
+}
+
+.modal {
+    z-index: 1000;
 }
 .modal_block {
     background: #1C1C3C;
@@ -19,7 +20,9 @@
 
 
 
-
+.modal {
+    display: block;
+}
 .modal_title_media {
     display: none;
 }
@@ -28,6 +31,8 @@
 
 
     /* MEDIA */
+
+
 
 .modal_title_media {
     display: none;

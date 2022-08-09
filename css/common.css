@@ -1,5 +1,6 @@
 body {
     position: relative;
+    font-family: Helvetica, sans-serif
 }
 .flex_row {
     display: flex;
@@ -41,10 +42,20 @@ body {
     font-weight: 400;
     line-height: 29px;
     letter-spacing: 0.09600000083446503px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.header_nav_text:hover {
+    color: antiquewhite;
+}
+.header_nav_text:active {
+    color: lightgray;
 }
 
 .contacts_link_icons {
+    display: inline-block;
     width: 21px;
+    height: auto;
 }
 
 .instagram_icon {
@@ -74,6 +85,12 @@ body {
     letter-spacing: -0.4501959979534149px;
     border: 0;
     border-radius: 10px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+.btn:active {
+    opacity: 0.5;
 }
 
 .light_btn {
