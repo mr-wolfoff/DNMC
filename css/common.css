@@ -21,6 +21,8 @@ body {
 /* header */
 .header {
     padding: 20px 0;
+    align-items: center;
+    align-self: center;
 }
 
 .header_nav {
@@ -34,6 +36,8 @@ body {
 
 .header_right_row {
     width: 400px;
+    display: flex;
+    align-items: center;
 }
 
 .header_nav_text {
@@ -61,17 +65,26 @@ body {
 .instagram_icon {
     background: url("../images/logos/instagram_logo.svg");
     background-repeat: no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
 }
 
 .facebook_icon {
     background: url("../images/logos/facebook_logo.svg");
     background-repeat: no-repeat;
+    display: inline-block;
+    width: 21px;
+    height: 21px;
 }
 
 .header_phone {
     background: url("../images/logos/phone_logo.svg");
     background-repeat: no-repeat;
-    width: 187px;
+    display: block;
+    width: 21px;
+    height: 21px;
+    width: 100px;
 }
 
 /* buttons */
