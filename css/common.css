@@ -18,14 +18,12 @@ body {
     margin: 0 auto;
 }
 
-/* header */
 .header {
     padding: 40px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 355px;
-
+    margin-bottom: 20vh;
 }
 
 .header_nav {
@@ -53,10 +51,10 @@ body {
 }
 
 .header_right_row {
+    margin-right: 3%;
     width: 500px;
     justify-content: space-evenly;
 }
-
 .header_nav_text {
     color: #fff;
     font-size: 24px;
