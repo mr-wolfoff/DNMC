@@ -160,3 +160,6 @@ body {
 .color_black {
     color: black;
 }
+.center {
+    text-align: center;
+}

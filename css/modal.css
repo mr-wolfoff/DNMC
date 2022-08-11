@@ -174,9 +174,6 @@
     
    
     .modal_title_media {
-        position: absolute;
-        top: 0;
-        left: 50%;
         text-align: center;
         width: 85%;
         margin: 40px auto;
@@ -189,8 +186,7 @@
     }
     .modal_block_description {
         display: block;
-        position: absolute;
-        top: 500px;
+        width: 284px;
     }
   
 }

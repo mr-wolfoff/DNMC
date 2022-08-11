@@ -111,3 +111,13 @@
     }
 }
 
+@media screen and (max-width: 450px) {
+    
+    .modal_block_description {
+        display: block;
+        width: 284px;
+    }
+    
+}
+
+
