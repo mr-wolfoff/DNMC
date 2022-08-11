@@ -3,12 +3,6 @@
     margin-bottom: 18px;
 }
 
-/* .contacts_link_icons {
-    width: 111px;
-
-} */
-
-
 .flex_colum {
     display: flex;
     flex-direction: column;
@@ -163,6 +157,9 @@
 @media screen and (max-width: 452px) {
     .nav_item {
         font-size: 20px;
+    }
+    .modal_block_description {
+        width: 90%;
     }
 
 }

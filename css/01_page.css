@@ -2,6 +2,7 @@ body {
     background: url("../images/dnmc_main.png");
     background-size: cover;
     background-repeat: no-repeat;
+    height: 100vh;
 }
 
 .main_title {
@@ -15,7 +16,6 @@ body {
 .header_br {
     display: none;
 }
-
 /* header */
 
 
@@ -34,18 +34,18 @@ body {
 }
 
 .title_block {
-    margin-bottom: 30vh;
+    margin-bottom: 20vh;
 }
 
 .partners_block_title {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .partners_list {
     overflow-x: scroll;
     height: 100px;
     display: flex;
-    margin-bottom: 180px;
+    margin-bottom: 30px;
 }
 
 .partners_list::-webkit-scrollbar {

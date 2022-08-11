@@ -1,6 +1,5 @@
 body {
-
-    font-family: Helvetica, sans-serif
+    font-family: "Bebas", "sans-serif"
 }
 .flex_row {
     display: flex;
@@ -24,7 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 355px;
+    margin-bottom: 20vh;
 
 }
 
