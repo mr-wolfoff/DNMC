@@ -3,6 +3,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #030207;
+    height: 100vh;
+
+}
+.column-space-between {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .main_title {
@@ -16,10 +23,11 @@ body {
 .header_br {
     display: none;
 }
-
 /* header */
 
-
+.header {
+    margin-bottom: 25vh;
+}
 /* main */
 .main_title {
     margin-bottom: 30px;
@@ -35,18 +43,18 @@ body {
 }
 
 .title_block {
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
 }
 
 .partners_block_title {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .partners_list {
     overflow-x: scroll;
     height: 100px;
     display: flex;
-    margin-bottom: 180px;
+    margin-bottom: 30px;
 }
 
 .partners_list::-webkit-scrollbar {
@@ -565,5 +573,7 @@ body {
 
     }
 }
+
+
 
 

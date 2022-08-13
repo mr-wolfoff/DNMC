@@ -207,9 +207,8 @@
 
     .menu-header.active {
         display: block;
-        width: 300px;
+        height: 110vh;
         margin-bottom: 20px;
-        /* text-align: center; */
         border-bottom: 1px solid lightblue;
         padding-bottom: 10px;
     }

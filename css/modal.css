@@ -17,9 +17,11 @@
 } */
 .form_modal {
     top: 0;
-    background: #1C1C3C;
+    position: absolute;
     border-radius: 7px;
     display: flex;
+    width: 100vw;
+    height: 100vh;
     flex-direction: column;
     align-items: center;
 }
@@ -39,6 +41,7 @@
     padding: 20px 50px;
     border-radius: 5px;
     background: #1C1C3C;
+    z-index: 10000;
   }
   
 
@@ -158,14 +161,15 @@
         
     .modal_form_inner {
         padding-block: 0px;
-        max-width: 250px;
+        width: 90%;
+        margin: 0 auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
         position: fixed;
         top: 40%;
-        left: 47%;
+        left: 50%;
         transform: translate(-50%, -50%);
         padding: 20px 50px;
         border-radius: 5px;
@@ -179,14 +183,14 @@
         margin: 40px auto;
     }
     .modal_block_media {
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
-        padding: 25px;
+        padding: 0;
         text-align: center;
     }
     .modal_block_description {
         display: block;
-        width: 284px;
+        width: 200px;
     }
   
 }

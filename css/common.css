@@ -1,10 +1,18 @@
 body {
-
-    font-family: Helvetica, sans-serif
+    font-family: "Bebas", "Roboto", "sans-serif"
 }
+
 .flex_row {
     display: flex;
     justify-content: space-between;
+}
+
+.position_relativ {
+    position: relative;
+}
+
+.black_text {
+    color: #000;
 }
 
 /* containers */
