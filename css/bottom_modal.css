@@ -117,6 +117,12 @@
         display: block;
         width: 250px;
     }
+    .capcha_index {
+        color: #000;
+    } 
+    .capcha_btn {
+        margin-bottom: 10px;
+    }
     
 }
 

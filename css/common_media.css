@@ -29,6 +29,10 @@
     .header_nav_text {
         margin-right: 10px;
     }
+    .header_phone {
+        width: 190px;
+        font-size: 24px;
+    }
 }
 
 @media screen and (max-width: 1100px) {
@@ -47,6 +51,9 @@
     .header_nav_text {
         font-size: 19px;
 
+    }
+    .header_phone {
+        font-size: 20px;
     }
 
 }
@@ -71,6 +78,7 @@
     .contacts_link_icons {
         margin: 0 9px;
     }
+   
 }
 
 @media screen and (max-width: 900px) {
@@ -115,12 +123,10 @@
         background-size: auto 20px;
     }
 
-    .header_phone {
-        background-size: 150px;
-    }
 
     .header_phone {
         width: 158px;
+        font-size: 19px;
     }
 
     .logo_img {

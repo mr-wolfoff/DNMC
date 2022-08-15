@@ -48,10 +48,14 @@
 }
 
 .gallery_image_block {
-    width: 100%;
+    width: 95%;
+    margin: 0 auto;
     background-color: #E6E6E6;
-    height: 550px;
     margin-bottom: 70px;
+}
+.gallery_image {
+    width: 100%;
+    height: 550px;
 }
 
 .about_us_buttons_item {
@@ -132,14 +136,18 @@
     .nav_item_block {
         margin: 0;
     }
-
+    .gallery_image {
+        height: 350px;  
+    }
 }
 
 @media screen and (max-width: 452px) {
     .nav_item {
         font-size: 20px;
     }
-
+    .gallery_image {
+        height: 250px;
+    }
 }
 
 

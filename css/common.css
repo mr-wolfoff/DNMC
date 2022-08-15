@@ -14,6 +14,12 @@ body {
 .black_text {
     color: #000;
 }
+.slim_text {
+    font-weight: 300;
+}
+.bold_text {
+    font-weight: 900;
+}
 
 /* containers */
 .container {
@@ -109,25 +115,30 @@ body {
 }
 
 .header_phone {
-    background: url("../images/logos/phone_logo.svg");
+    background: url("../images/blue-phone-icon.svg");
     background-repeat: no-repeat;
+    font-size: 24px;
     display: block;
-    background-size: 100%;
+    background-size: contain;
     width: 21px;
     height: 27px;
-    width: 199px;
+    width: 190px;
     padding: 0 2%;  
+    padding-left: 30px;
 }
 
 .header_phone_black {
-    background: url("../images/logos/black_phone.svg");
+    background: url("../images/blue-phone-icon.svg");
     background-repeat: no-repeat;
+    font-size: 24px;
     display: block;
-    background-size: 100%;
+    background-size: contain;
     width: 21px;
     height: 27px;
-    width: 199px;
+    width: 190px;
     padding: 0 2%;  
+    padding-left: 30px;
+    color: #000;
 }
 
 /* buttons */

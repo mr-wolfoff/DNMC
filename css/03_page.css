@@ -79,7 +79,8 @@
 }
 
 .insta {
-    min-height: 540px;
+    height: 540px;
+    width: 315px;
     margin-bottom: 100px;
 }
 
