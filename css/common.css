@@ -1,9 +1,17 @@
 body {
-    font-family: "Bebas", "Roboto", "sans-serif";
-   overflow-x: hidden; 
+    font-family: "Bebas Neue Book", "Roboto", "sans-serif";
+    overflow-x: hidden;
 }
+.btn {
+    font-family: 'Roboto';
+}
+
 .bebas_bold {
+    font-family:  "Bebas Neue";
     font-weight: 900;
+}
+.robot {
+    font-family: "Roboto";
 }
 
 .flex_row {
@@ -18,9 +26,11 @@ body {
 .black_text {
     color: #000;
 }
+
 .slim_text {
     font-weight: 300;
 }
+
 .bold_text {
     font-weight: 900;
 }
@@ -73,6 +83,7 @@ body {
     width: 500px;
     justify-content: space-evenly;
 }
+
 .header_nav_text {
     color: #fff;
     font-size: 24px;
@@ -83,9 +94,11 @@ body {
     transition: 0.3s;
     display: inline-block;
 }
+
 .header_nav_text:hover {
     color: antiquewhite;
 }
+
 .header_nav_text:active {
     color: lightgray;
 }
@@ -127,7 +140,7 @@ body {
     width: 21px;
     height: 27px;
     width: 190px;
-    padding: 0 2%;  
+    padding: 0 2%;
     padding-left: 30px;
     color: #fff;
 }
@@ -141,7 +154,7 @@ body {
     width: 21px;
     height: 27px;
     width: 190px;
-    padding: 0 2%;  
+    padding: 0 2%;
     padding-left: 30px;
     color: #000;
 }
@@ -158,9 +171,11 @@ body {
     border: 0;
     border-radius: 10px;
 }
+
 .btn:hover {
     opacity: 0.8;
 }
+
 .btn:active {
     opacity: 0.5;
 }
@@ -174,9 +189,12 @@ body {
 .footer {
     padding-block: 10px 30px;
 }
+
 .copyright {
+    font-family: "Roboto";
     color: #fff;
 }
+
 .black {
     color: #000;
 }
@@ -184,6 +202,7 @@ body {
 .color_black {
     color: black;
 }
+
 .center {
     text-align: center;
 }

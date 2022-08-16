@@ -134,11 +134,15 @@
 
     .header_phone {
         width: 158px;
-        font-size: 19px;
+        font-size: 23px;
     }
 
     .logo_img {
         width: 76px;
+    }
+
+    .block_card_item {
+        width: 339px;
     }
 
 }
@@ -266,8 +270,8 @@
     }
 
     .header_phone {
-        width: 227px;
-        height: 28px;
+        width: 166px;
+        height: 20px;
     }
 
     .logo_img {
@@ -275,7 +279,7 @@
     }
 
     .header {
-        margin-bottom: 27vh;
+        margin-bottom: 2vh;
     }
 
 }

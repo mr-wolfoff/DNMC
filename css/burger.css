@@ -5,17 +5,19 @@
     align-items: center;
     padding: 1%;
     border-radius: 50%;
+    z-index: 1000;
     
 }
 /* header dropdown */
 .menu-header.active {
-    height: 110vh !important;
+    height: 99vh !important;
+    z-index: 10;
 }
 .menu-btn-header {
     width: 18px;
     height: 18px;
     position: relative;
-    z-index:2;
+    z-index:11;
     overflow: hidden;
 }
 .menu-btn-header span {
