@@ -270,10 +270,6 @@
         height: 28px;
     }
 
-    .header_phone {
-        background-size: 99%;
-    }
-
     .logo_img {
         width: 323%;
     }
@@ -351,10 +347,13 @@
     }
 
     .header_phone {
-
+        margin-left: 10px;
         width: 192px;
-        height: 25px;
-
+        height: 20px;
     }
+    .header_phone_black {
+        color: #000;
+    }
+
 
 }

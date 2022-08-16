@@ -321,10 +321,6 @@
     }
 
     .header_phone {
-        background-size: 150px;
-    }
-
-    .header_phone {
         width: 158px;
     }
 
@@ -468,10 +464,6 @@
     .header_phone {
         width: 227px;
         height: 28px;
-    }
-
-    .header_phone {
-        background-size: 99%;
     }
 
     .logo_img {

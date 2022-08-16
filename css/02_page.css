@@ -273,10 +273,6 @@ body {
     }
 
     .header_phone {
-        background-size: 150px;
-    }
-
-    .header_phone {
         width: 158px;
     }
 
@@ -421,10 +417,6 @@ body {
         height: 28px;
     }
 
-    .header_phone {
-        background-size: 99%;
-    }
-
     .logo_img {
         width: 323%;
     }
@@ -500,10 +492,9 @@ body {
     }
 
     .header_phone {
-
         width: 192px;
-        height: 25px;
-
+        height: 20px;
+        font-size: 20px;
     }
 
 }
