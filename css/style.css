@@ -2,10 +2,14 @@
     display: flex;
     align-items: flex-start;
 }
+.main_title {
+    font-weight: bold;
+}
 
 .slider {
     min-width: 0;
     position: relative;
+    margin-bottom: 30px;
 }
 
 .slick-list {
@@ -56,5 +60,12 @@
 
 @media screen  and (max-width: 500px){
 
-    
+    .slider__item  {
+        border: 1px solid #312E4D;
+        padding: 15px;
+        width: 130px;
+        height: 120px;
+        text-align: center;
+        align-items: center;
+    }
 }

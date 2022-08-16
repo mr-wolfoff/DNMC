@@ -309,7 +309,7 @@ body {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 650px) {
 
       /* header dropdown */
       .dropdown-btn-header {
@@ -411,10 +411,9 @@ body {
         display: flex;
         align-items: center;
     }
-
     .header_phone {
-        width: 227px;
-        height: 28px;
+        width: 163px;
+        height: 23px;
     }
 
     .logo_img {
@@ -492,9 +491,10 @@ body {
     }
 
     .header_phone {
-        width: 192px;
+        width: 142px;
         height: 20px;
         font-size: 20px;
+        background-size: 14%;
     }
 
 }

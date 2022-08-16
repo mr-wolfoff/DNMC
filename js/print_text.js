@@ -1,10 +1,17 @@
 const t = [
-    'Реклама  Insta & facebook',
-    'Реклама  google & yandex',
-    'Разработка  дизайна',
-    'Разработка  eco систем',
-    'Разработка  web проектов'
+    'Реклама Insta & facebook       ',
+    'Реклама  google & yandex       ',
+    'Разработка  дизайна        ',
+    'Разработка  eco систем         ',
+    'Разработка  web проектов       '
 ];
+const bold = [
+    'Insta & facebook',
+    'google & yandex',
+    'дизайна',
+    'eco систем',
+    'web проектов'
+]
 
 function typeText() {
     let line = 0;
