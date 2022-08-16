@@ -82,6 +82,9 @@
     height: 540px;
     width: 315px;
     margin-bottom: 100px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .block_card_item_title {

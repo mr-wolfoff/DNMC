@@ -26,7 +26,7 @@ body {
 /* header */
 
 .header {
-    margin-bottom: 25vh;
+    margin-bottom: 30vh;
 }
 /* main */
 .main_title {
@@ -43,30 +43,11 @@ body {
 }
 
 .title_block {
-    margin-bottom: 15vh;
+    margin-bottom: 25vh;
 }
 
 .partners_block_title {
     margin-bottom: 20px;
-}
-
-.partners_list {
-    overflow-x: scroll;
-    height: 100px;
-    display: flex;
-    margin-bottom: 30px;
-}
-
-.partners_list::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
-
-.parters_item {
-    display: inline-block;
-    height: 100px;
-    width: 200px;
-    border: 1px #312E4D solid;
 }
 
 /* block with images */
@@ -244,10 +225,6 @@ body {
         background-position: top 0 left 0;
     }
 
-    .header {
-        margin-bottom: 180px;
-    }
-
     .container {
         max-width: 950px;
     }
@@ -384,7 +361,7 @@ body {
     }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 662px) {
 
     /* header dropdown */
     .dropdown-btn-header {
@@ -482,25 +459,29 @@ body {
 
     .media_header {
         width: 80%;
-        height: 70px;
+        height: 17px;
         display: flex;
-        align-items: center;
+        align-items: flex-end;
     }
 
     .header_phone {
-        width: 227px;
+        width: 160px;
         height: 28px;
-        background-size: auto; 
-        padding-left: 20px;   
-        font-size: 16px;
+        background-size: 13%; 
+        padding-left: 25px;   
+        font-size: 21px;
         margin-left: 10px;
         padding-top: 6px;
-        background-position-y: center;
+        background-position-y: bottom;
     }
 
 
     .logo_img {
-        width: 323%;
+        width: 334%;
+    }
+
+    .header {
+        margin-bottom: 27vh;
     }
 
 }
@@ -510,6 +491,28 @@ body {
     .header_left_row,
     .header_right_row {
         flex-direction: column;
+    }
+
+    .main_title {
+        font-size: 40px;
+    }
+    .header {
+        margin-bottom: 25vh;
+    }
+    .title_block {
+        margin-bottom: 32vh;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+
+
+    .main_title {
+        font-size: 32px;
     }
 
 }
@@ -525,6 +528,14 @@ body {
         max-width: 90vw;
     }
 
+    .header {
+        margin-bottom: 5vh;
+    }
+
+    .header_phone {
+        background-size: 9%;
+    }
+
     .header_nav {
         margin-bottom: 30px;
     }
@@ -534,15 +545,16 @@ body {
     }
 
     .main_title {
-        font-size: 40px;
+        font-size: 31px;
     }
 
     .header_br {
         display: block;
     }
 
+   
     .title_block {
-        margin-bottom: 300px;
+        margin-bottom: 47vh;
     }
 
     .main_title {
@@ -570,6 +582,11 @@ body {
     }
 }
 
+.title_main_write {
+    height: 83px;
+    width: 100%;
+    margin-bottom: 21px;
+}
 
 
 
