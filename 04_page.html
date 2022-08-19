@@ -140,14 +140,23 @@
             menu.classList.toggle('active');
         })
     </script>
-    <script>
-        let menuBtn2 = document.querySelector('.menu-btn-header');
-        let menu2 = document.querySelector('.menu-header');
-        menuBtn2.addEventListener('click', function () {
-            menuBtn2.classList.toggle('active');
-            menu2.classList.toggle('active');
-        })
-    </script>
+        <script>
+            let isActive = false
+            let menuBtn2 = document.querySelector('.menu-btn-header');
+            let menu2 = document.querySelector('#menu-header');
+            menuBtn2.addEventListener('click', function () {
+                if (isActive) {
+                    document.body.style.cssText = 'overflow-y: scroll;';
+                    isActive = false
+                } else {
+                    document.body.style.cssText = 'overflow: hidden;';
+                    isActive = true
+                }
+                menuBtn2.classList.toggle('active');
+                menu2.classList.toggle('active');
+                let active = menu2.getAttribute('class');
+            })            
+        </script>
 
 </body>
 

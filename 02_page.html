@@ -32,7 +32,7 @@
             <a href="tel: +7 708 280 28 06" class="header_phone" title="+7 708 280 28 06">+7 708 280 28 06</a>
             <a href="index.html" class="contacts_link_icons logo"><img class="logo_img" src="images/logos/LogoDNMC.svg"
                     alt="DNMC"></a>
-            <div class="dropdown_header_link_media menu-header">
+            <div class="dropdown_header_link_media menu-header" id="menu-header">
                 <div class="header_links_container ">
                     <ul class="header_links_names_block menu">
                         <li>
@@ -301,12 +301,21 @@
         });
     </script>
     <script>
+        let isActive = false
         let menuBtn2 = document.querySelector('.menu-btn-header');
-        let menu2 = document.querySelector('.menu-header');
-        menuBtn2.addEventListener('click', function () {
-            menuBtn2.classList.toggle('active');
-            menu2.classList.toggle('active');
-        })
+        let menu2 = document.querySelector('#menu-header');
+            menuBtn2.addEventListener('click', function () {
+                if (isActive) {
+                    document.body.style.cssText = 'overflow-y: scroll;';
+                    isActive = false
+                } else {
+                    document.body.style.cssText = 'overflow: hidden;';
+                    isActive = true
+                }
+                menuBtn2.classList.toggle('active');
+                menu2.classList.toggle('active');
+                let active = menu2.getAttribute('class'); 
+        })            
     </script>
 
 </body>
