@@ -1,5 +1,5 @@
 body {
-    font-family: "Bebas Neue Book", "Roboto", "sans-serif";
+    font-family:"Avenir Next Cyr", "Roboto", "sans-serif";
     overflow-x: hidden;
 }
 .btn {
@@ -60,7 +60,7 @@ body {
 
 .header_nav {
     align-items: center;
-    width: 459px;
+    width: 388px;
 
 }
 
@@ -138,7 +138,7 @@ body {
 .header_phone {
     background: url("../images/blue-phone-icon.svg");
     background-repeat: no-repeat;
-    font-size: 24px;
+    font-size: 19px;
     display: block;
     background-size: contain;
     width: 21px;

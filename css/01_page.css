@@ -19,6 +19,12 @@ body {
     line-height: 85px;
     letter-spacing: 0.2800000011920929px;
 }
+.fixed_wrapper {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 50000;
+}
 
 .header_br {
     display: none;
@@ -469,7 +475,7 @@ body {
         height: 28px;
         background-size: 13%; 
         padding-left: 25px;   
-        font-size: 21px;
+        font-size: 18px;
         margin-left: 10px;
         padding-top: 6px;
         background-position-y: bottom;

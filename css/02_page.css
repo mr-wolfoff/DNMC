@@ -110,6 +110,10 @@ body {
     .short_container {
         max-width: 95%;
     }
+
+    .container {
+        max-width: 1140px;
+    }
 }
 
 @media screen and (max-width:810px) {
@@ -165,9 +169,6 @@ body {
         margin-bottom: 180px;
     }
 
-    .container {
-        max-width: 950px;
-    }
 
     .logo {
         margin-right: 5%;
@@ -194,7 +195,7 @@ body {
     }
 
     .container {
-        max-width: 85%;
+        max-width: 95%;
     }
 
     .header_nav {
@@ -214,7 +215,7 @@ body {
     }
 
     .container {
-        max-width: 92%;
+        max-width: 95%;
     }
 
     .header_right_row {

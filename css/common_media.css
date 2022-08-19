@@ -41,7 +41,7 @@
 
     .header_phone {
         width: 190px;
-        font-size: 24px;
+        font-size: 19px;
     }
 }
 
@@ -64,7 +64,7 @@
     }
 
     .header_phone {
-        font-size: 20px;
+        font-size: 18px;
     }
 
 }
@@ -90,6 +90,10 @@
         margin: 0 9px;
     }
 
+    .header_phone {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -101,6 +105,10 @@
         max-width: 37vw;
     }
 
+    .header_phone {
+        font-size: 18px;
+    }
+
 }
 
 @media screen and (max-width: 840px) {
@@ -110,6 +118,9 @@
 
     .header_right_row {
         margin-right: 6%;
+    }
+    .header_phone {
+        font-size: 17px;
     }
 
 
@@ -137,7 +148,7 @@
 
     .header_phone {
         width: 158px;
-        font-size: 23px;
+        font-size: 16px;
     }
 
     .logo_img {
@@ -274,7 +285,7 @@
 
     .header_phone {
         width: 166px;
-        height: 20px;
+        height: 17px;
     }
 
     .logo_img {
